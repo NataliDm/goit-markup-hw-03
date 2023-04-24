@@ -34,7 +34,7 @@ button {
   cursor: pointer;
 }
 header {
-  border-bottom: 1px var(--accent);
+  border-bottom: 1px solid var(--accent);
   width: 1440px;
   height: 72px;
   padding-top: 24px;
@@ -79,6 +79,8 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .menu:hover,
 .menu:focus {
@@ -118,8 +120,11 @@ header {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
+  text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  max-width: 496px;
 }
 .hero-button {
   background-color: var(--primary-brand);
@@ -129,8 +134,16 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  display: flex;
+  align-items: flex-end;
+  padding: 16px 32px;
+  margin-bottom: 188px;
+  gap: 10px;
+  max-height: 46px;
 }
-
+.hero-page {
+  display: flex;
+}
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--pressed-state);
