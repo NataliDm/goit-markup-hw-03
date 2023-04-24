@@ -54,7 +54,7 @@ header {
 }
 .list-item:not(:last-child) {
   display: flex;
-  gap: 24px;
+  margin-right: 24px;
 }
 .container {
   width: 1158px;
@@ -237,6 +237,9 @@ header {
   display: flex;
   flex-direction: column;
   width: calc((100% - 3 * 24px) / 4);
+  width: 264px;
+  height: 104px;
+  margin-right: 24px;
 }
 
 .company-text {
@@ -253,6 +256,7 @@ header {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--dark);
+  display: block;
   margin-bottom: 8px;
 }
 /*What we are doing*/
