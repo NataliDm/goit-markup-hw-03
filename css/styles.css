@@ -115,6 +115,8 @@ header {
 .hero {
   background: var(--dark);
   color: var(--white-background);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-text {
   font-weight: 700;
@@ -122,10 +124,7 @@ header {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
   max-width: 496px;
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -140,11 +139,11 @@ header {
   border: none;
   border-radius: 4px;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  min-width: 169px;
-  height: 56px;
-  padding: 16px 32px;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 169px;
+  margin-top: 48px;
 }
 
 .hero-page {
