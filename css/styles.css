@@ -13,6 +13,53 @@
   --white-background: #ffffff;
   --modal-background: #fcfcfc;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+}
+header {
+  border-bottom: 1px var(--accent);
+  width: 1440px;
+  height: 72px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 0;
+}
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid yellow;
+}
+/*- HEADER-*/
+
+.header-page {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 .nav {
   color: var(--dark);
 }
@@ -44,13 +91,14 @@
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-left: auto;
 }
-
 .mail {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
+  margin-left: auto;
 }
 .mail:hover,
 .mail:focus {
@@ -76,7 +124,6 @@
 .hero-button {
   background-color: var(--primary-brand);
   color: var(--white-background);
-  cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -98,7 +145,6 @@
 .filtr-button {
   background-color: var(--light);
   color: #4d5ae5;
-  cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -133,6 +179,8 @@
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
+  margin-left: 0;
 }
 
 .logoweb {
