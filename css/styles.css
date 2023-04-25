@@ -149,13 +149,14 @@ header {
   border-radius: 4px;
   display: block;
   padding: 16px 32px;
-  width: 169px;
   height: 56px;
   margin-left: auto;
   margin-right: auto;
+  min-width: 169px;
+  align-items: flex-start;
 }
 .hero-button-text {
-  display: flex;
+  display: block;
   align-items: center;
   letter-spacing: 0.04em;
   width: 105px;
@@ -231,8 +232,11 @@ header {
 }
 /*About company*/
 .company {
+  display: flex;
   padding-top: 120px;
   padding-bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .company-descr {
   font-weight: 500;
@@ -242,16 +246,21 @@ header {
   color: var(--dark);
 }
 .list-item-view {
+  width: calc((100% - 72px) / 4);
+  min-width: 264px;
+  height: 104px;
+  left: 156px;
+  top: 792px;
+  gap: 8px;
 }
 .list-item {
   display: flex;
   width: calc((100% - 72px) / 4);
-  width: 264px;
-  height: 224px;
+  gap: 24px;
+  margin-right: 0;
+  justify-content: space-between;
 }
-.list-item:not(:last-child) {
-  margin-right: 24px;
-}
+
 .company-text {
   font-size: 16px;
   line-height: 1.5;
