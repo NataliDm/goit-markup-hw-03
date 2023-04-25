@@ -33,7 +33,7 @@ img {
 button {
   cursor: pointer;
 }
-header {
+.header {
   border-bottom: 1px solid var(--accent);
   width: 1440px;
   height: 72px;
@@ -244,6 +244,7 @@ header {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
+  margin-bottom: 8px;
 }
 .list-item-view {
   width: calc((100% - 72px) / 4);
@@ -281,8 +282,13 @@ header {
 /*What we are doing*/
 .tasks {
   padding-bottom: 120px;
+  display: flex;
 }
-
+.task-list {
+  display: flex;
+  gap: 24px;
+  margin-right: 0;
+}
 .tasks-text {
   font-weight: 700;
   font-size: 36px;
