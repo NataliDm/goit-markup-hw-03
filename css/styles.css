@@ -186,11 +186,15 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 12px 24px;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
 }
 .filtr-button:hover,
 .filtr-button:focus {
   background-color: var(--pressed-state);
-  color: #ffffff;
+  color: var(--white-background);
+  border: 1px solid transparent;
 }
 
 .filtr-button:active {
@@ -353,6 +357,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
+  margin-bottom: 8px;
 }
 .examples-type {
   font-size: 16px;
@@ -374,4 +379,30 @@ button {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--light);
+}
+/*-PORTFOLIO-*/
+.portfolio {
+  padding: 96px 0 120px;
+}
+.portfolio-nav {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-right: 0;
+  margin-bottom: 72px;
+}
+.portfolio-projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-right: 0;
+  row-gap: 48px;
+}
+.project-card {
+  width: calc((100% - 48px) / 3);
+}
+.card-content {
+  padding: 32px 16px;
+  border: 1px solid var(--accent);
+  border-top: none;
 }
