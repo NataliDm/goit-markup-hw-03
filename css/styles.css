@@ -351,6 +351,7 @@ button {
 }
 /*footer*/
 .footer {
+  display: block;
   background-color: var(--dark);
   padding: 100px 0;
 }
