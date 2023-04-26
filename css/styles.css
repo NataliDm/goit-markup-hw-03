@@ -245,17 +245,10 @@ button {
 .list-item-view {
   width: calc((100% - 72px) / 4);
   min-width: 264px;
-  height: 104px;
-  left: 156px;
-  top: 792px;
-  gap: 8px;
 }
 .list-item {
   display: flex;
-  width: calc((100% - 72px) / 4);
   gap: 24px;
-  margin-right: 0;
-  justify-content: space-between;
 }
 
 .company-text {
@@ -274,6 +267,7 @@ button {
   color: var(--dark);
   display: block;
   margin-bottom: 8px;
+  visibility: hidden;
 }
 /*What we are doing*/
 .tasks {
