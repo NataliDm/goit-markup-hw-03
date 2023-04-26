@@ -36,7 +36,6 @@ button {
 .header {
   border-bottom: 1px solid var(--accent);
   width: 1440px;
-  height: 72px;
   padding-top: 24px;
   padding-bottom: 24px;
   padding-left: 0;
@@ -58,14 +57,11 @@ button {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid rgb(154, 10, 10);
 }
 /*- HEADER-*/
 
 .header-page {
   display: flex;
-  align-items: center;
-  gap: 40px;
 }
 .nav {
   color: var(--dark);
@@ -95,19 +91,18 @@ button {
 }
 
 .address {
+  display: block;
   color: var(--text);
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-left: auto;
 }
 .mail {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
-  margin-left: auto;
 }
 .mail:hover,
 .mail:focus {
@@ -148,7 +143,6 @@ button {
   border-radius: 4px;
   display: block;
   padding: 16px 32px;
-  height: 56px;
   margin-left: auto;
   margin-right: auto;
   min-width: 169px;
@@ -267,7 +261,6 @@ button {
   color: var(--dark);
   display: block;
   margin-bottom: 8px;
-  visibility: hidden;
 }
 /*What we are doing*/
 .tasks {
@@ -363,6 +356,7 @@ button {
 .footer-text {
   font-size: 16px;
   line-height: 24px;
+  width: 264px;
   letter-spacing: 0.02em;
   color: var(--light);
 }
