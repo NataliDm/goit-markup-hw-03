@@ -44,7 +44,6 @@ button {
 .list {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
 }
 .link {
   text-decoration: none;
