@@ -383,6 +383,7 @@ button {
   color: var(--light);
 }
 .box {
+  display: flex;
   flex-direction: column;
 }
 /*-PORTFOLIO-*/
