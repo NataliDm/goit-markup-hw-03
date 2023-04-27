@@ -63,12 +63,6 @@ button {
 }
 /*- HEADER-*/
 
-.header-page {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  margin-right: 0;
-}
 .nav {
   color: var(--dark);
 }
@@ -156,10 +150,6 @@ button {
   align-items: flex-start;
 }
 
-.hero-page {
-  display: flex;
-  flex-direction: column;
-}
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--pressed-state);
@@ -247,10 +237,7 @@ button {
   width: calc((100% - 72px) / 4);
   min-width: 264px;
 }
-.list-item {
-  display: flex;
-  gap: 24px;
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -284,7 +271,6 @@ button {
 /*What we are doing*/
 .tasks {
   padding-bottom: 120px;
-  display: flex;
 }
 .task-list {
   display: flex;
