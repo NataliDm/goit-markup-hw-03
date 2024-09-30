@@ -1,22 +1,40 @@
 body {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: Regular;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    color: #434455;
-    background-color:#FFFFFF ;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  color: #434455;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 ul,
 ol {
   list-style-type: none;
   text-decoration: none;
 }
-a {text-decoration: none;}
+
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+.container {
+  max-width: 1440px;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin-left: 0;
+  margin-right: 0;
+}
 /*header*/
+.top-line {
+  width: 1158px;
+  height: 72px;
+}
 .logo {
-  font-family: "Raleway",sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -24,6 +42,10 @@ a {text-decoration: none;}
   text-align: left;
   text-transform: uppercase;
   color: #4d5ae5;
+  width: 115px;
+  height: 156px;
+  padding: 1.5px 0 1.5px 0;
+  background-color: red;
 }
 .logo-studio {
   color: #2e2f42;
@@ -39,6 +61,7 @@ a {text-decoration: none;}
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  border: 2px solid rgb(0, 255, 4);
 }
 .nav-list-item {
   color: #2e2f42;
@@ -51,17 +74,17 @@ a {text-decoration: none;}
   text-decoration: underline;
 }
 .address {
-    font-style: normal;
+  font-style: normal;
+  border: 2px solid rgb(255, 0, 242);
 }
 .address-link {
- letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 .address-link:hover,
 .address-link:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
-
 
 .nav-list-item:focus {
   color: #404bbf;
@@ -86,10 +109,11 @@ a {text-decoration: none;}
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  border: 2px solid rgb(140, 255, 0);
 }
 .hero-button:hover,
 .hero-button:focus {
-    background-color: #404bbf;
+  background-color: #404bbf;
 }
 /*features*/
 .features-title {
@@ -114,7 +138,7 @@ a {text-decoration: none;}
 }
 /*our team*/
 .our-team {
-    background-color:#f4f4fd ;
+  background-color: #f4f4fd;
 }
 .our-team-title {
   font-weight: 700;
@@ -126,7 +150,7 @@ a {text-decoration: none;}
   color: #2e2f42;
 }
 .our-team-list {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 .our-team-list-title {
   font-weight: 500;
