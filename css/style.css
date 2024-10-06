@@ -24,7 +24,6 @@ img {
 .container {
   width: 1158px;
   padding: 0 15px 0 15px;
-  margin: 0 auto;
 }
 /*header*/
 .header {
@@ -48,7 +47,8 @@ img {
   width: 115px;
   height: 24px;
   padding: 1.5px 0 1.5px 0;
-  margin-left: 0;
+  margin-left: 156px;
+  margin-right: 76px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -80,7 +80,6 @@ img {
   width: 261px;
   height: 24px;
   margin-right: 0;
-  margin-left: 76px;
   gap: 40px;
 }
 .nav-list-item {
@@ -97,7 +96,7 @@ img {
 }
 .address {
   display: flex;
-  margin-left: auto;
+  margin-left: 332px;
   font-style: normal;
 }
 .e-mail {
@@ -251,6 +250,7 @@ img {
 .our-team-list {
   display: flex;
   gap: 24px;
+  margin-left: 156px;
 }
 .our-team-list-item {
   display: flex;
@@ -339,14 +339,7 @@ img {
   color: #434455;
 }
 /*footer*/
-.footer-wraper {
-  width: 1440px;
-  height: 312px;
-  background: #2e2f42;
-  margin-left: 0;
-  column-gap: 16px;
-  padding-left: 156px;
-}
+
 .footer {
   background-color: #2e2f42;
   width: 1440px;
@@ -361,18 +354,11 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  margin-left: 156px;
 }
 .logo-footer {
   color: #f4f4fd;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
-
 .logo .logo-footer-position {
   display: inline-block;
   margin-bottom: 16px;
