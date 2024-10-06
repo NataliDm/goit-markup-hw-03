@@ -99,7 +99,7 @@ img {
   font-style: normal;
 }
 .e-mail {
-  margin-right:40px ;
+  margin-right: 40px;
 }
 .mobil-number {
   margin-right: 0;
@@ -194,11 +194,11 @@ img {
 }
 
 .feauters-list-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
+  flex-basis: calc((100% - 72px) / 4);
   gap: 8px;
   width: 264px;
   height: 104px;
@@ -249,14 +249,14 @@ img {
 .our-team-list {
   display: flex;
   gap: 24px;
-  margin-left:156px;
+  margin-left: 156px;
 }
 .our-team-list-item {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: calc((100%-3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   width: 264px;
@@ -287,7 +287,7 @@ img {
 /*our portfolio*/
 .our-portfolio {
   width: 1128px;
-  padding: 120px 156px;
+  padding: 120px 0;
 }
 .our-portfolio-list {
   display: flex;
@@ -297,7 +297,6 @@ img {
 }
 .portfolio-list-item {
   width: calc((100%-48px) / 3);
-  height: 420px;
 }
 .portfolio-case-title {
   padding: 32px 16px;
