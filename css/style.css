@@ -34,7 +34,7 @@ img {
   width: 1440px;
   height: 72px;
   display: flex;
-  flex-direction: row;
+  margin: 0 auto;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -259,6 +259,7 @@ img {
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   height: 380px;
+  width: 264px;
   background: #fff;
 }
 .our-team-list-title {
@@ -343,6 +344,10 @@ img {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.logo .logo-footer-position {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .footer-text {
   font-weight: 400;
   font-size: 16px;
@@ -354,8 +359,4 @@ img {
 }
 .logo-footer {
   color: #f4f4fd;
-}
-.logo .logo-footer-position {
-  display: inline-block;
-  margin-bottom: 16px;
 }
