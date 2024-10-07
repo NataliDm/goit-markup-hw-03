@@ -283,7 +283,7 @@ img {
   row-gap: 48px;
 }
 .portfolio-list-item {
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-case-title {
   padding: 32px 16px;
@@ -328,7 +328,7 @@ img {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.logo .logo-footer-position {
+.footer .logo {
   display: inline-block;
   margin-bottom: 16px;
 }
