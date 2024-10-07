@@ -29,6 +29,7 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
+
 .top-line {
   width: 1440px;
   height: 72px;
@@ -67,7 +68,6 @@ img {
 .nav-menu {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .nav-list {
@@ -121,7 +121,6 @@ img {
 }
 .contacts {
   display: flex;
-  padding: 0;
   gap: 40px;
 }
 /*hero*/
@@ -201,7 +200,6 @@ img {
   flex-direction: column;
   flex-basis: calc((100% - 72px) / 4);
   gap: 8px;
-  width: 264px;
   height: 104px;
   left: 156px;
   top: 792px;
@@ -260,7 +258,6 @@ img {
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
-  width: 264px;
   height: 380px;
   background: #fff;
 }
@@ -303,7 +300,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  width: 360px;
   height: 120px;
   display: flex;
   align-items: flex-start;
