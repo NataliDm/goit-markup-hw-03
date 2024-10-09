@@ -41,7 +41,7 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.container .nav-menu {
+.only-header {
   display: flex;
 }
 .logo {
@@ -123,7 +123,7 @@ img {
 .nav-list-item:focus {
   color: #404bbf;
 }
-.contacts {
+.my-address {
   display: flex;
   gap: 40px;
 }
@@ -229,6 +229,7 @@ img {
 
 /*our team*/
 .our-team {
+
   background-color: #f4f4fd;
   padding: 120px 0;
 }
