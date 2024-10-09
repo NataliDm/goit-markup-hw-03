@@ -100,13 +100,21 @@ img {
 .address {
   display: flex;
   font-style: normal;
+  align-items: center;
+  margin-left: auto;
 }
+.my-address {
+  display: flex;
+  gap: 40px;
+}
+
 .e-mail {
   margin-right: 0;
 }
 .mobil-number {
   margin-right: 0;
 }
+
 .address-link {
   letter-spacing: 0.02em;
   width: 153px;
@@ -121,10 +129,7 @@ img {
 .nav-list-item:focus {
   color: #404bbf;
 }
-.my-address {
-  display: flex;
-  gap: 40px;
-}
+
 /*hero*/
 .hero-title {
   font-weight: 700;
